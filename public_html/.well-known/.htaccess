@@ -1,0 +1,5 @@
+ForceType application/json
+<FilesMatch "apple-app-site-association">
+    SetHandler application/json
+    Header set Content-Type "application/json"
+</FilesMatch>
